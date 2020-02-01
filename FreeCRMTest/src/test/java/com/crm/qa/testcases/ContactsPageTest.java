@@ -92,6 +92,10 @@ public class ContactsPageTest extends TestBase{
 	public void tearDown(){
 		driver.quit();
 	}
+	// jquery-growl w/ colorized output
+//	js.executeScript("$.growl.error({ title: 'ERROR', message: 'Some exception is coming' });");
+//	js.executeScript("$.growl.notice({ title: 'Notice', message: 'your notice message goes here' });");
+//	js.executeScript("$.growl.warning({ title: 'Warning!', message: 'your warning message goes here' });");
 	
 
 	/*@AfterMethod
