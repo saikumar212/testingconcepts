@@ -99,6 +99,12 @@ public class ContactsPageTest extends TestBase{
 		driver.quit();
 	}
 	*/
+
+	/*@AfterMethod
+	public void tearDown(){
+		driver.quit();
+	}
+	*/
 	
 	
 	
