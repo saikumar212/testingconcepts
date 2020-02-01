@@ -77,6 +77,10 @@ public class FreeCrmTest {
 //		js.executeScript("$.growl.notice({ title: 'Notice', message: 'your notice message goes here' });");
 //		js.executeScript("$.growl.warning({ title: 'Warning!', message: 'your warning message goes here' });");
 	}
+
+//	js.executeScript("$.growl.error({ title: 'ERROR', message: 'Some exception is coming' });");
+//	js.executeScript("$.growl.notice({ title: 'Notice', message: 'your notice message goes here' });");
+//	js.executeScript("$.growl.warning({ title: 'Warning!', message: 'your warning message goes here' });")
 	
 	public static void takeScreenshot(String fileName) throws IOException{
 		// Take screenshot and store as a file format

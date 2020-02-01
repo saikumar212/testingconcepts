@@ -26,6 +26,11 @@ public class HomePageTest extends TestBase {
 	//@test -- execute test case
 	//after each test case -- close the browser
 	
+	//test cases should be separated -- independent with each other
+		//before each test case -- launch the browser and login
+		//@test -- execute test case
+		//after each test case -- close the 
+	
 	@BeforeMethod
 	public void setUp() {
 		initialization();
